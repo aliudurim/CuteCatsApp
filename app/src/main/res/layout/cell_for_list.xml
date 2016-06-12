@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgForCats"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightOfImageView"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/placeholder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtNotes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dummyTextNotes"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="@dimen/textSize" />
+
+                <LinearLayout
+                    android:id="@+id/llIntelligence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginTop"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intelligence"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/txtIntelligence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/high"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llPlayfulness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/playfulness"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/txtPlayfulness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/very"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llCraziness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/craziness"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/txtCraziness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/good"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llFriendliness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/friendliness"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/txtFriendliness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/notAvailable"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llHappiness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/happiness"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/txtHappiness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/foo"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llAgility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/agility"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/txtAgility"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bar"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llStretchiness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stretchiness"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/txtStretchiness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/baz"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFunniness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/funniness"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/txtFunniness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/twice"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llTediousness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tediousness"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+
+                    <TextView
+                        android:id="@+id/txtTediousness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/broken"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="@dimen/textSize" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/viewValid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/error" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
